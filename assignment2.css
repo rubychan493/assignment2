@@ -1,0 +1,124 @@
+body {
+	background-image:url("https://drive.google.com/uc?export=view&id=143AzmkKHtiJNUZAfS7K3VFAFgvTQSNKr");
+	cursor: url();
+}
+
+.divbgcolor {
+	background-image:url("https://drive.google.com/uc?export=view&id=1TtoZW1IWNaB4ZzlYCOxH56dOB8MTTRXL");
+}
+
+.divbgcolor2 {
+	background-image:url("https://drive.google.com/uc?export=view&id=1PfW3VtssJWupKnl1eKl3devVYSF3OvsQ");
+	height:500px;
+	padding-top:96px;
+	text-align:center;
+}
+
+.contentintable {
+	margin:auto;
+	width:100%;
+}
+
+/** Start of Drop Down Menu **/
+nav {
+	font-weight:bold;
+	color:black;
+	border: 2px solid #AAAAAA;
+	text-align:center;
+	width:200px;
+	background-color:#CACACA;
+	z-index:1;
+	position: absolute;
+	box-shadow: 5px 5px 2px grey;
+}
+
+nav ul {
+	display:none;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+nav:hover ul {
+	display:block;
+}
+
+nav ul li {
+	border-top: 2px solid #AAAAAA;
+	background-color:#F0F0F0;
+	width:200px;
+	color:black;
+}
+nav ul li:hover {
+	background-color:powderblue;
+}
+
+a {
+	text-decoration:none
+}
+/** End of Drop Down Menu **/
+
+.imgfloatleft {
+	float:left;
+	margin:15px;
+}
+
+.imgfloatright {
+	float:right;
+	margin:15px;
+}
+
+h2 {
+	text-align:center;
+}
+
+td ul {
+  list-style-image:url("https://drive.google.com/uc?export=view&id=1XBQb_9E1bNScKlOwG9vsX-8n6z4RcsnY");
+}
+
+/** Start of table **/
+.timetable {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	border-collapse:collapse;
+	margin:auto;
+}
+.timetable th {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	background:#F0F0F0;
+}
+.timetable td {
+	border:1px solid #C0C0C0;
+	padding:5px;
+	background-color:white;
+}
+/** End of table **/
+
+/** Start of change text **/
+.timetable p.change a {
+	position:relative;
+}
+
+.timetable p:hover.change a {
+	display: none;
+}
+
+.timetable p:hover:after {
+	content:"Every week";
+	color:red;
+}
+
+.timetable p.change2 a {
+	position:relative;
+}
+
+.timetable p:hover.change2 a {
+	display: none;
+}
+
+.timetable p.change2:hover:after {
+	content:"Every even week";
+	color:red;
+}
+/** End of change text **/
